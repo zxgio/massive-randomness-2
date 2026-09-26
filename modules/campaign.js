@@ -154,6 +154,20 @@ ModManager.modules.push(function(){
                                 ],
                                 ES:[ "un Monstruo Errante de 1 rango por encima del Nivel <b>inicial</b> de la Mazmorra, o un Monstruo Errante de Nivel 10 si no est&aacute; disponible (ejemplo: si el Nivel inicial de la Mazmorra era 3-4, genera un Monstruo Errante de Nivel 5)" ]
                             },
+                            campaignQuestPhaseDescription:{
+                                IT:"<ul>"+
+                                    "<li><b>Missioni Secondarie</b>: Alcune Missioni hanno una Missione secondaria elencata nella loro descrizione. Gli Eroi ottengono le ricompense delle Missioni Secondarie quando vincono la Missione corrente e completano anche la condizione della Missione Secondaria. Non ottengono le ricompense se la Missione termina con una sconfitta.</li>"+
+                                    "<li><b>Le sfide del Vecchio Rosso</b>: Alcune Missioni hanno una sfida del Vecchio Rosso elencata nella loro descrizione. Gli eroi ottengono la ricompensa della sfida giocando la Missione corrente seguendo le regole della sfida e vincendo. Non ottengono le ricompense se la Missione termina con una sconfitta.</li>"+
+                                "</ul>",
+                                EN:"<ul>"+
+                                    "<li><b>Side Quests</b>: Some Quests have a Side Quest listed in their description. Heroes claim the Side Quest rewards when they win the current Quest and also complete the Side Quest's condition. They do not claim the rewards if the Quest ends in defeat.</li>"+
+                                    "<li><b>The Red Old One Challenges</b>: Some Quests have a Red Old One Challenge listed in their description. Heroes claim the challenge reward when they play the current Quest following the challenge rules and win. They do not claim the rewards if the Quest ends in defeat.</li>"+
+                                "</ul>",
+                                ES:"<ul>"+
+                                    "<li><b>Misiones secundarias</b>: Algunas misiones incluyen una misi&#xF3;n secundaria en su descripci&#xF3;n. Los h&#xE9;roes reciben recompensas por la misi&#xF3;n secundaria al completar la misi&#xF3;n principal y cumplir con los requisitos de la misma. No reciben recompensas si la misi&#xF3;n termina en derrota.</li>"+
+                                    "<li><b>Los Desaf&iacute;os del Viejo Rojo</b>: Algunas misiones incluyen un Desaf&iacute;o del Viejo Rojo. Los H&eacute;roes obtienen la recompensa del desaf&iacute;o cuando juegan la Misi&oacute;n actual siguiendo las reglas del desaf&iacute;o y ganan. No obtienen las recompensas si la Misi&oacute;n termina en derrota.</li>"+
+                                "</ul>",
+                            },
                             campaign2shotsQuestPhaseDescription:{
                                 IT:"<ul>"+
                                     "<li>La Missione A si svolger&agrave; come una normale Avventura one-shot. Al termine della Missione A verr&agrave; spiegato come far progredire i personaggi prima di proseguire con la Missione B.</li>"+
@@ -163,7 +177,10 @@ ModManager.modules.push(function(){
                                     "<li>Mission A will play out like a normal One-shot quest. After completing Mission A, you will be given instructions on how to advance your characters before moving on to Mission B.</li>"+
                                     "<li><b>The Red Old One Challenges</b>: Mission A includes a Red Old One Challenge. Heroes claim the challenge reward when they play the current Quest following the challenge rules and win. They do not claim the rewards if the Quest ends in defeat.</li>"+
                                 "</ul>",
-                                ES:"<ul>" + "<li>La Misi&oacute;n A se desarrolla como una Aventura autoconclusiva normal. Al terminar la Misi&oacute;n A, se te indicar&aacute; c&oacute;mo hacer progresar a tus personajes antes de continuar con la Misi&oacute;n B.</li>" + "<li><b>Los Desaf&iacute;os del Viejo Rojo</b>: La Misi&oacute;n A incluye un Desaf&iacute;o del Viejo Rojo. Los H&eacute;roes obtienen la recompensa del desaf&iacute;o cuando juegan la Misi&oacute;n actual siguiendo las reglas del desaf&iacute;o y ganan. No obtienen las recompensas si la Misi&oacute;n termina en derrota.</li>" + "</ul>"
+                                ES:"<ul>"+
+                                    "<li>La Misi&oacute;n A se desarrolla como una Aventura autoconclusiva normal. Al terminar la Misi&oacute;n A, se te indicar&aacute; c&oacute;mo hacer progresar a tus personajes antes de continuar con la Misi&oacute;n B.</li>"+
+                                    "<li><b>Los Desaf&iacute;os del Viejo Rojo</b>: La Misi&oacute;n A incluye un Desaf&iacute;o del Viejo Rojo. Los H&eacute;roes obtienen la recompensa del desaf&iacute;o cuando juegan la Misi&oacute;n actual siguiendo las reglas del desaf&iacute;o y ganan. No obtienen las recompensas si la Misi&oacute;n termina en derrota.</li>"+
+                                "</ul>"
                             },
                             miniCampaignTreasureBagDescription:{
                                 IT:"<p>Invece del normale numero di segnalini Tesoro descritto nella Configurazione della Modalità Campagna, all'inizio di questa Campagna i giocatori mettono 10 segnalini Tesoro Comune e 3 segnalini Tesoro Raro nella Borsa del Tesoro.</p>",
